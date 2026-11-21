@@ -1,0 +1,26 @@
+{
+  "team": "STARLIGHT",
+  "receipt": "BB-8E16196B",
+  "commit": "636b6618e49fd4ad54f8b748bb1cf49ab0a8fb16",
+  "submitted_at_et": "2026-11-20 19:20",
+  "practice_status": "scored",
+  "practice_score": 2.58,
+  "github_ci_url": "https://github.com/Sharmileer/mech-royale/actions/runs/44842155600",
+  "github_ci_result": "success",
+  "docker_conformance": {
+    "observations": 300,
+    "on_time": 300,
+    "bad_lines": 0,
+    "wrong_tick": 0,
+    "startup_ms": 1044,
+    "response_ms_p50": 0.8,
+    "response_ms_p99": 4.7,
+    "response_ms_max": 5.1
+  },
+  "source_bytes": 2061960,
+  "score_precision": "displayed to two decimals",
+  "match_count_per_rules": 48,
+  "baseline_score": 1.15,
+  "rank_at_observation": 32,
+  "teams_at_observation": 42
+}

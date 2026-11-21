@@ -2,7 +2,7 @@
 
 A first competition candidate for `mechfight/1`, built from the official Python starter kit. It optimizes for survival and placement using cover, recovery, navigation, weapon-specific aiming and conservative loot collection.
 
-**Status: locally checked; no practice score yet.** Passing conformance is not evidence of beating the 1.15 starter score, qualifying, or winning. This repository is a starting point for measured competition iterations.
+**First official practice score: 2.58**, above the starter baseline of 1.15. Team **STARLIGHT**, receipt `BB-8E16196B`, submitted commit `636b6618e49fd4ad54f8b748bb1cf49ab0a8fb16` at 7:20 PM ET on November 20, 2026. The board showed 32nd of 42 teams when the result was checked; rankings remain provisional. [Verified Docker CI run](https://github.com/Sharmileer/mech-royale/actions/runs/44842155600) · [Competition results](https://www.joinbuilders.org/buildathon/tracks/builders). This establishes a measured starting point, not a qualifying or winning result.
 
 ## Run and check
 
@@ -62,12 +62,12 @@ The policy reacts to observable threats. It does not assume opponents always coo
 
 ## Known limits to investigate with practice feedback
 
-- The kit contains a recorded checker, **not a playable engine**. No local placement, win-rate or kill-count estimate is claimed.
+- The kit contains a recorded checker, **not a playable engine**. The 2.58 placement score comes from the official practice run; no local win-rate or kill-count estimate is claimed.
 - Navigation is primarily on the ground. It intentionally skips elevated loot and has only an emergency jump/jet fallback; it does not plan full roof-to-roof flight. One sampled campus start was in a disconnected ground region and needs jet navigation.
 - Terrain visibility and movement use bilinear samples; prism collision uses geometry. Trees affect vision but not shots, so shot checks intentionally ignore canopy. This is an approximation of the authoritative engine, not an engine clone.
 - Aiming assumes constant observed enemy velocity over the short projectile flight. Sharp dodges, gravity and collisions can invalidate that estimate.
 - Strategy thresholds and upgrade preferences are initial hypotheses. Change them using practice evidence, not the number of tests passed.
-- Docker was unavailable in the authoring workspace. The exact pinned image's Python filesystem was tested using a read-only user namespace, uid 65534 and one CPU affinity. The full Docker cgroup, network and tmpfs-limit check still needs the included workflow or a Docker host.
+- Docker was unavailable in the authoring workspace, so its initial checks used the pinned image's Python filesystem. The subsequent GitHub Actions run **passed the exact Docker sandbox check**, including network isolation, uid 65534, read-only files, one CPU, 512 MB memory and a 64 MB writable `/tmp`.
 
 ## A focused iteration plan
 

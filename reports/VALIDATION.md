@@ -1,6 +1,6 @@
 # Validation — 2026-11-20
 
-These are implementation checks, not gameplay results. No official practice submission has been made and no placement score is available.
+These are implementation checks. The first official practice run was submitted at 7:20 PM ET on November 20, 2026 for team STARLIGHT (receipt BB-8E16196B). It scored **2.58 placement points**, versus the starter baseline of **1.15**. The leaderboard showed STARLIGHT at **32nd of 42 teams** at observation; this is provisional and does not establish qualification.
 
 | Check | Final observed result |
 | --- | --- |
@@ -12,10 +12,10 @@ These are implementation checks, not gameplay results. No official practice subm
 | Synthetic decision timing | p50 2.28 ms; p99 11.84 ms; maximum 31.77 ms |
 | Synthetic process peak RSS | 25,328 KiB, about 24.7 MiB; this is not a cgroup memory-limit test |
 | Campus kinematic ground routes | 11/11 ground-connected cases reached their target; one additional case identified a disconnected region requiring jet navigation |
-| Official practice score | Not measured |
-| Exact Docker sandbox conformance | Pending; Docker unavailable in this workspace; CI workflow supplied |
+| Official practice score | 2.58 displayed placement points; 48-match practice format; receipt BB-8E16196B |
+| Exact Docker sandbox conformance | PASS on GitHub Actions; 300/300 timely responses; maximum 5.1 ms |
 
-The final conformance and stress runs used Python 3.13.9 from the Dockerfile's **exact, digest-verified linux/amd64 base image**, uid/gid 65534, a read-only filesystem, a writable `/tmp`, and CPU affinity restricted to one core through Bubblewrap. This validates the interpreter and key filesystem assumptions; it is **not** a Docker build, a Docker CPU-quota test, a network-isolation test, a 512 MB cgroup test, or a 64 MB tmpfs-limit test. The included GitHub Actions workflow performs the exact required Docker build and check.
+The final conformance and stress runs used Python 3.13.9 from the Dockerfile's **exact, digest-verified linux/amd64 base image**, uid/gid 65534, a read-only filesystem, a writable `/tmp`, and CPU affinity restricted to one core through Bubblewrap. This validates the interpreter and key filesystem assumptions; it is **not** a Docker build, a Docker CPU-quota test, a network-isolation test, a 512 MB cgroup test, or a 64 MB tmpfs-limit test. The subsequent [GitHub Actions run](https://github.com/Sharmileer/mech-royale/actions/runs/44842155600) **completed the exact required Docker build and sandbox check successfully** for commit `636b6618e49fd4ad54f8b748bb1cf49ab0a8fb16`. Its startup was 1,044 ms, p50 0.8 ms, p99 4.7 ms and maximum 5.1 ms, with zero late observations or schema errors. All 23 behavioral tests and the source-size check also passed.
 
 Timing varies with host load and CPU. Earlier runs had different maxima; the raw files here record the final source version's runs. No response-time guarantee on the scorer's machine is implied.
 

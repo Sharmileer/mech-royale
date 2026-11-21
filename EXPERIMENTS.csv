@@ -1,2 +1,2 @@
 candidate,commit_sha,submitted_at_ET,practice_mean_points,match_count,change,notes
-V1,,,,48,Initial Oval Sentinel candidate,Not submitted; no performance score measured
+V1,636b6618e49fd4ad54f8b748bb1cf49ab0a8fb16,2026-11-20 19:20,2.58,48,Initial Oval Sentinel candidate,Receipt BB-8E16196B; scored; displayed score rounded to 2 decimals; rank 32 of 42 at observation; exact Docker CI passed
