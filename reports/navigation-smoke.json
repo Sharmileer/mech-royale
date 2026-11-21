@@ -1,0 +1,86 @@
+{
+  "kind": "navigation smoke; not game simulation",
+  "cases": [
+    {
+      "case": 0,
+      "reached": true,
+      "remaining_m": 5.7,
+      "steps": 642,
+      "blocked": 0
+    },
+    {
+      "case": 1,
+      "reached": true,
+      "remaining_m": 5.8,
+      "steps": 504,
+      "blocked": 0
+    },
+    {
+      "case": 2,
+      "reached": true,
+      "remaining_m": 5.3,
+      "steps": 246,
+      "blocked": 0
+    },
+    {
+      "case": 3,
+      "reached": true,
+      "remaining_m": 4.9,
+      "steps": 577,
+      "blocked": 0
+    },
+    {
+      "case": 4,
+      "reached": true,
+      "remaining_m": 5.9,
+      "steps": 561,
+      "blocked": 0
+    },
+    {
+      "case": 5,
+      "result": "disconnected ground region; requires jet navigation"
+    },
+    {
+      "case": 6,
+      "reached": true,
+      "remaining_m": 5.5,
+      "steps": 147,
+      "blocked": 0
+    },
+    {
+      "case": 7,
+      "reached": true,
+      "remaining_m": 5.6,
+      "steps": 181,
+      "blocked": 0
+    },
+    {
+      "case": 8,
+      "reached": true,
+      "remaining_m": 5.8,
+      "steps": 756,
+      "blocked": 0
+    },
+    {
+      "case": 9,
+      "reached": true,
+      "remaining_m": 5.1,
+      "steps": 186,
+      "blocked": 0
+    },
+    {
+      "case": 10,
+      "reached": true,
+      "remaining_m": 4.9,
+      "steps": 536,
+      "blocked": 0
+    },
+    {
+      "case": 11,
+      "reached": true,
+      "remaining_m": 5.5,
+      "steps": 516,
+      "blocked": 0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "synthetic stress; not gameplay",
+  "observations": 800,
+  "schema_errors": 0,
+  "ms_p50": 2.2750089992769063,
+  "ms_p99": 11.841637999168597,
+  "ms_max": 31.76609199726954,
+  "max_rss_kib": 25328,
+  "trigger_true_counts": {
+    "gun": 11,
+    "laser": 106,
+    "mortar": 3,
+    "lightning": 14
+  }
+}

@@ -1,0 +1,28 @@
+test_crossing_target_is_intercepted (test_bot.BallisticsTests.test_crossing_target_is_intercepted) ... ok
+test_does_not_shoot_before_torso_turns (test_bot.BallisticsTests.test_does_not_shoot_before_torso_turns) ... ok
+test_laser_holds_then_releases (test_bot.BallisticsTests.test_laser_holds_then_releases) ... ok
+test_lightning_does_not_waste_energy_out_of_range (test_bot.BallisticsTests.test_lightning_does_not_waste_energy_out_of_range) ... ok
+test_lightning_preserves_reserve_energy (test_bot.BallisticsTests.test_lightning_preserves_reserve_energy) ... ok
+test_live_projectile_speed_changes_lead (test_bot.BallisticsTests.test_live_projectile_speed_changes_lead) ... ok
+test_mortar_aim_does_not_fire_gun_at_sky (test_bot.BallisticsTests.test_mortar_aim_does_not_fire_gun_at_sky) ... ok
+test_mortar_parabola_reaches_stationary_target (test_bot.BallisticsTests.test_mortar_parabola_reaches_stationary_target) ... ok
+test_mortar_unreachable_target (test_bot.BallisticsTests.test_mortar_unreachable_target) ... ok
+test_recovery_stops_dealing_distant_damage (test_bot.BallisticsTests.test_recovery_stops_dealing_distant_damage) ... ok
+test_astar_routes_around_building (test_bot.GeometryTests.test_astar_routes_around_building) ... ok
+test_body_clearance_not_just_center (test_bot.GeometryTests.test_body_clearance_not_just_center) ... ok
+test_bridge_clears_ray_below (test_bot.GeometryTests.test_bridge_clears_ray_below) ... ok
+test_building_blocks_ray (test_bot.GeometryTests.test_building_blocks_ray) ... ok
+test_courtyard_hole_is_not_solid (test_bot.GeometryTests.test_courtyard_hole_is_not_solid) ... ok
+test_zone_hold_and_shrink (test_bot.GeometryTests.test_zone_hold_and_shrink) ... ok
+test_cannot_swap_charging_laser (test_bot.PolicyTests.test_cannot_swap_charging_laser) ... ok
+test_deadline_does_not_produce_invalid_action (test_bot.PolicyTests.test_deadline_does_not_produce_invalid_action) ... ok
+test_does_not_take_unreachable_roof_loot (test_bot.PolicyTests.test_does_not_take_unreachable_roof_loot) ... ok
+test_no_enemies_is_valid_and_finite (test_bot.PolicyTests.test_no_enemies_is_valid_and_finite) ... ok
+test_stays_behind_cover_to_regenerate (test_bot.PolicyTests.test_stays_behind_cover_to_regenerate) ... ok
+test_takes_weapon_into_empty_slot (test_bot.PolicyTests.test_takes_weapon_into_empty_slot) ... ok
+test_upgrade_chooses_known_survival_benefit (test_bot.PolicyTests.test_upgrade_chooses_known_survival_benefit) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.033s
+
+OK

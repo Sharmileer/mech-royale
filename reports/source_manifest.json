@@ -1,0 +1,15 @@
+{
+  "retrieved_date": "2026-11-20",
+  "kit_url": "https://www.joinbuilders.org/buildathon/tracks/builders/files/mechfight-kit.tar.gz",
+  "rulebook_url": "https://www.joinbuilders.org/buildathon/tracks/builders/files/protocol.md?inline=1",
+  "kit_sha256": "1758fe9125e193b268c6c1cffbf2c0ae96377214ab06d117412571c1523065ba",
+  "official_files": {
+    "protocol.md": "fa27ac191f6623d3a979e8d85389e5a18c373a41fcc832f4d08551ddcfb69e77",
+    "mechfight.schema.json": "134a617995240b25866b57dbe8eaf7786e9a2c09f6b980ad7964e88b63719ccf",
+    "mechfight.py": "62fbcc3eeb63a64baeebcba0a8b101ca9f520c6100061b54147a5b62f45e2719",
+    "check/check.py": "78a9b2c64126d7b979fdad9f243afd9ed8a139798a47173186162767ca6895c1",
+    "check/stream.jsonl.gz": "884a1bbb2afe288ea5b2d60ce20c74274ba37351ec31bf3334c160f13ec48a95",
+    "arena/v2/world.json": "e0302dd4777b527b00a6a4b2e02759915402a23c58839d921e9fcc6d58092445",
+    "arena/v2/terrain.i16": "3aa74308e096e36ed29230f135b0f3ff3ae09dfa164c2b687455b4f975b01d38"
+  }
+}
